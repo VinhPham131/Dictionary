@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_anhViet"
+            android:icon="@drawable/baseline_home_24"
+            android:title="English-Vietnamese"
+            />
+        <item
+            android:id="@+id/nav_vietAnh"
+            android:icon="@drawable/baseline_menu_book_24"
+            android:title="Vietnamese-English"
+            />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/baseline_favorite_24"
+            android:title="Favorite"
+            />
+        <item
+            android:id="@+id/nav_yourWord"
+            android:icon="@drawable/baseline_bookmark_24"
+            android:title="Your Words"
+            />
+    </group>
+    <item
+        android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/baseline_ios_share_24"
+                android:title="Share"
+                />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/baseline_contact_support_24"
+                android:title="Help"
+                />
+        </menu>
+
+    </item>
+</menu>
